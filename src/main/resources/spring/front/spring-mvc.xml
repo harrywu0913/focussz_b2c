@@ -20,8 +20,7 @@
 	<mvc:resources location="/WEB-INF/view/front" mapping="/view/front/**" />
 
 	<context:component-scan base-package="com.focussz.front.web.controller">
-		<context:include-filter type="annotation"
-			expression="org.springframework.stereotype.Controller" />
+		<context:include-filter type="annotation" expression="org.springframework.stereotype.Controller" />
 	</context:component-scan>
 
 	<!-- spring mvc i18n -->
